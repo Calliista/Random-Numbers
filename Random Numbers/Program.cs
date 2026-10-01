@@ -37,7 +37,6 @@
             {
                 Console.WriteLine("The random numbers were different! Not weird.");
             }
-            Console.ReadLine();    //Keeps the program from quitting
 
             //Questions
             //1. change it to 0-6 for numbers from 0-5 and 0-101 for numbers from 0-100
@@ -48,7 +47,10 @@
             //Task 1.
 
             Console.WriteLine("Enter a minimum value");
-            }
+            min = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a maximum value");
+            max = Convert.ToInt32(Console.ReadLine());
+        }
         }
     }
 
