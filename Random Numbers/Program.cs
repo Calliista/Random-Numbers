@@ -118,6 +118,22 @@
             {
                 Console.WriteLine("No");
             }
+            if (eightBall == 12)
+            {
+                Console.WriteLine("Ask again later!");
+            }
+            if (eightBall == 13)
+            {
+                Console.WriteLine("Better not tell you now");
+            }
+            if (eightBall == 14)
+            {
+                Console.WriteLine("I won't tell you.");
+            }
+            if (eightBall == 15)
+            {
+                Console.WriteLine("you smell bad :(");
+            }
 
         }
         }
