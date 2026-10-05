@@ -67,9 +67,9 @@
 
             //Task 4.
             Console.WriteLine("Magic 8-ball");
-            Console.WriteLine("Press enter to use:");
+            Console.WriteLine("Ask a question, then press enter to use:");
             Console.ReadLine();
-            eightBall = generator.Next(10);
+            eightBall = generator.Next(22);
             if (eightBall == 0)
             { 
                 Console.WriteLine("yea");
@@ -88,19 +88,19 @@
             }
             if (eightBall == 4)
             {
-                Console.WriteLine("Y");
+                Console.WriteLine("Ye");
             }
             if (eightBall == 5)
             {
-                Console.WriteLine("N");
+                Console.WriteLine("Na");
             }
             if (eightBall == 6)
             {
-                Console.WriteLine(":)");
+                Console.WriteLine(":)!");
             }
             if (eightBall == 7)
             {
-                Console.WriteLine(":(");
+                Console.WriteLine(":(!");
             }
             if (eightBall == 8)
             {
@@ -133,6 +133,30 @@
             if (eightBall == 15)
             {
                 Console.WriteLine("you smell bad :(");
+            }
+            if (eightBall == 16)
+            {
+                Console.WriteLine("Definitly");
+            }
+            if (eightBall == 17)
+            {
+                Console.WriteLine("Without a doubt");
+            }
+            if (eightBall == 18)
+            {
+                Console.WriteLine("Most likely");
+            }
+            if (eightBall == 19)
+            {
+                Console.WriteLine("Don't count on it");
+            }
+            if (eightBall == 20)
+            {
+                Console.WriteLine("not likely");
+            }
+            if (eightBall == 21)
+            {
+                Console.WriteLine("I doubt it");
             }
 
         }
