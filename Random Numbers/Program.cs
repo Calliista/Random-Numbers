@@ -54,6 +54,7 @@
 
             //Task 2.
 
+
             //Task 3.
             Console.WriteLine("Press enter to roll 2 dice");
             Console.ReadLine();
@@ -67,9 +68,9 @@
 
             //Task 4.
             Console.WriteLine("Magic 8-ball");
-            Console.WriteLine("Ask a question, then press enter to use:");
+            Console.WriteLine("Ask a question, (yes/no question) then press enter to use:");
             Console.ReadLine();
-            eightBall = generator.Next(22);
+            eightBall = generator.Next(24);
             if (eightBall == 0)
             { 
                 Console.WriteLine("yea");
@@ -157,6 +158,14 @@
             if (eightBall == 21)
             {
                 Console.WriteLine("I doubt it");
+            }
+            if (eightBall == 22)
+            {
+                Console.WriteLine("Of course");
+            }
+            if (eightBall == 23)
+            {
+                Console.WriteLine("Of course not");
             }
 
         }
